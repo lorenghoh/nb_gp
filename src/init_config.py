@@ -11,7 +11,6 @@ def init_config():
     print(f"Initializing {prj_d}/config.json...\n")
 
     config = {
-        "prj_d": prj_d.as_posix(),
         "case": "/Howard16TB/data/loh/CGILS_S6"
     }
 
